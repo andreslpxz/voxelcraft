@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta principal de VoxelCraft -->
+    <color name="vc_sky_top">#FF4A90E2</color>
+    <color name="vc_sky_mid">#FF6FB1F0</color>
+    <color name="vc_sky_bottom">#FFB5E0FF</color>
+    <color name="vc_grass_dark">#FF3E6B2F</color>
+    <color name="vc_grass">#FF5B9A48</color>
+    <color name="vc_grass_light">#FF7FC26B</color>
+    <color name="vc_dirt">#FF7B5A3A</color>
+    <color name="vc_stone">#FF8A8A8A</color>
+
+    <!-- Accents para UI -->
+    <color name="vc_primary">#FF3DDC84</color>
+    <color name="vc_primary_dark">#FF1FAE6B</color>
+    <color name="vc_primary_light">#FF6FEFAE</color>
+    <color name="vc_accent">#FFFFB300</color>
+    <color name="vc_accent_dark">#FFE08A00</color>
+    <color name="vc_danger">#FFEF5350</color>
+
+    <!-- Superficies -->
+    <color name="vc_bg_overlay">#CC0E1B14</color>
+    <color name="vc_card_bg">#F2FFFFFF</color>
+    <color name="vc_text_primary">#FFFFFFFF</color>
+    <color name="vc_text_secondary">#B3FFFFFF</color>
+    <color name="vc_text_dark">#FF1A1A1A</color>
+    <color name="vc_text_dim">#FF6B6B6B</color>
+    <color name="vc_button_shadow">#66000000</color>
+
+    <!-- Logo / brand -->
+    <color name="vc_logo_top">#FF8B6FE0</color>
+    <color name="vc_logo_bottom">#FF4A90E2</color>
+</resources>

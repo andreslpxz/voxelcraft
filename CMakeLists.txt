@@ -96,26 +96,41 @@ target_link_options(voxelcraft PRIVATE
 # ------------------------------------------------------------
 # Shaders
 # ------------------------------------------------------------
-find_program(GLSLC glslc)
+# Los shaders GLSL (*.vert / *.frag) se compilan a SPIR-V y se embeben
+# como headers C (`block.vert.h`, `block.frag.h`, ...) en el repo.
+# Esto se hace FUERA de CMake con `scripts/compile_shaders.py`, para que
+# el build no dependa de que glslc/glslangValidator este instalado en
+# la maquina del desarrollador. Los headers generados se versionan junto
+# al codigo C++.
+#
+# Si en el futuro se quiere regenerar automaticamente en build-time,
+# basta con descomentar el bloque find_program(...) de abajo y anadir
+# el add_custom_command correspondiente. Por ahora, los headers ya
+# estan commiteados en src/shaders/*.h
 
-if(GLSLC)
+set(SHADER_DIR ${CMAKE_SOURCE_DIR}/src/shaders)
 
-    set(SHADER_DIR ${CMAKE_SOURCE_DIR}/src/shaders)
-    set(GEN_DIR ${CMAKE_BINARY_DIR}/generated_shaders)
+# Verificamos que los headers embebidos existan; si faltan, fail-fast
+# con un mensaje claro para que el desarrollador sepa que correr.
+foreach(_sh
+        block.vert.h block.frag.h
+        sky.vert.h   sky.frag.h
+        ui.vert.h    ui.frag.h)
+    if(NOT EXISTS "${SHADER_DIR}/${_sh}")
+        message(FATAL_ERROR
+            "Falta el shader embebido: ${SHADER_DIR}/${_sh}\n"
+            "Ejecuta: python3 scripts/compile_shaders.py\n"
+            "(o define VOXELCRAFT_EMBEDDED_SHADERS=0 y provee los shaders por otro medio)")
+    endif()
+endforeach()
 
-    file(MAKE_DIRECTORY ${GEN_DIR})
+target_include_directories(voxelcraft PRIVATE
+    ${SHADER_DIR}
+)
 
-    # Tus add_custom_command() aquí
-
-    target_include_directories(voxelcraft PRIVATE
-        ${GEN_DIR}
-    )
-
-    target_compile_definitions(voxelcraft PRIVATE
-        VOXELCRAFT_EMBEDDED_SHADERS=1
-    )
-
-endif()
+target_compile_definitions(voxelcraft PRIVATE
+    VOXELCRAFT_EMBEDDED_SHADERS=1
+)
 
 # ------------------------------------------------------------
 # Enlace

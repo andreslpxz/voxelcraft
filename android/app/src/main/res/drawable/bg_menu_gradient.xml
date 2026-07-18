@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Cielo: gradiente vertical azul -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="270"
+                android:startColor="@color/vc_sky_top"
+                android:centerColor="@color/vc_sky_mid"
+                android:endColor="@color/vc_sky_bottom" />
+        </shape>
+    </item>
+    <!-- Sol: halo radial -->
+    <item android:gravity="top|end" android:width="320dp" android:height="320dp" android:right="-80dp" android:top="-100dp">
+        <shape android:shape="oval">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="320"
+                android:startColor="#66FFFFFF"
+                android:endColor="#00FFFFFF" />
+        </shape>
+    </item>
+    <!-- Nubes: bandas horizontales difuminadas -->
+    <item android:gravity="center_vertical|start" android:width="240dp" android:height="60dp" android:left="0dp" android:top="-80dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="30dp" />
+            <solid android:color="#33FFFFFF" />
+        </shape>
+    </item>
+    <item android:gravity="center_vertical|end" android:width="180dp" android:height="44dp" android:right="-40dp" android:top="60dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="22dp" />
+            <solid android:color="#26FFFFFF" />
+        </shape>
+    </item>
+    <!-- Suelo: gradiente verde en la parte inferior (estilo "horizonte") -->
+    <item android:gravity="bottom">
+        <shape android:shape="rectangle">
+            <size android:height="180dp" />
+            <gradient
+                android:type="linear"
+                android:angle="270"
+                android:startColor="#003E6B2F"
+                android:centerColor="#663E6B2F"
+                android:endColor="#FF3E6B2F" />
+        </shape>
+    </item>
+    <!-- Bloques flotantes decorativos (cubes estilizados) -->
+    <item android:gravity="bottom|start" android:width="64dp" android:height="64dp" android:left="24dp" android:bottom="120dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/vc_grass" />
+            <corners android:radius="6dp" />
+            <stroke android:width="3dp" android:color="@color/vc_grass_dark" />
+        </shape>
+    </item>
+    <item android:gravity="bottom|start" android:width="48dp" android:height="48dp" android:left="120dp" android:bottom="100dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/vc_dirt" />
+            <corners android:radius="4dp" />
+            <stroke android:width="2dp" android:color="#5C3D26" />
+        </shape>
+    </item>
+    <item android:gravity="bottom|end" android:width="56dp" android:height="56dp" android:right="80dp" android:bottom="140dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/vc_stone" />
+            <corners android:radius="5dp" />
+            <stroke android:width="2dp" android:color="#5A5A5A" />
+        </shape>
+    </item>
+    <item android:gravity="bottom|center_horizontal" android:width="72dp" android:height="72dp" android:bottom="90dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/vc_grass_light" />
+            <corners android:radius="7dp" />
+            <stroke android:width="3dp" android:color="@color/vc_grass_dark" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">VoxelCraft</string>
+    <string name="menu_play">JUGAR</string>
+    <string name="menu_settings">CONFIGURACIÓN</string>
+    <string name="menu_about">ACERCA DE</string>
+    <string name="menu_continue">CONTINUAR</string>
+    <string name="menu_new_world">NUEVO MUNDO</string>
+    <string name="menu_quit">SALIR</string>
+    <string name="menu_tagline">Un sandbox de bloques infinito</string>
+    <string name="menu_version">v1.0.0</string>
+    <string name="settings_title">Configuración</string>
+    <string name="settings_render_distance">Distancia de renderizado</string>
+    <string name="settings_render_distance_value">%d chunks</string>
+    <string name="settings_graphics">Calidad gráfica</string>
+    <string name="settings_sensitivity">Sensibilidad</string>
+    <string name="about_title">Acerca de VoxelCraft</string>
+    <string name="about_body">VoxelCraft es un sandbox de bloques open-source para Android, renderizado nativamente con Vulkan. Construye, explora y sobrevive en un mundo procedural infinito.</string>
+    <string name="about_author">Desarrollado por @andreslpxz</string>
+    <string name="about_engine">Motor: Vulkan 1.1 · C++17 · Kotlin</string>
+    <string name="common_close">CERRAR</string>
+    <string name="common_back">VOLVER</string>
 </resources>

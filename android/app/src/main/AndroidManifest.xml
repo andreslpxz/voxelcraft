@@ -10,24 +10,52 @@
 
     <application
         android:allowBackup="true"
-        android:label="VoxelCraft"
+        android:label="@string/app_name"
         android:supportsRtl="true"
         android:icon="@mipmap/ic_launcher"
         android:theme="@style/Theme.VoxelCraft"
         android:hardwareAccelerated="true">
 
+        <!-- =================================================== -->
+        <!-- Pantalla de menú principal — es el LAUNCHER.        -->
+        <!-- =================================================== -->
         <activity
-            android:name="android.app.NativeActivity"
+            android:name=".MenuActivity"
             android:exported="true"
+            android:screenOrientation="landscape"
             android:configChanges="orientation|screenSize|keyboardHidden|navigation"
-            android:screenOrientation="landscape">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="voxelcraft"/>
+            android:theme="@style/Theme.VoxelCraft.Menu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+
+        <!-- =================================================== -->
+        <!-- Actividad del juego (Vulkan NativeActivity).         -->
+        <!-- Lanzada por MenuActivity al pulsar JUGAR.             -->
+        <!-- =================================================== -->
+        <activity
+            android:name=".GameActivity"
+            android:exported="false"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|screenSize|keyboardHidden|navigation"
+            android:theme="@style/Theme.VoxelCraft.Game">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="voxelcraft"/>
+        </activity>
+
+        <!-- Actividad nativa legacy (compatibilidad hacia atrás) -->
+        <activity
+            android:name="android.app.NativeActivity"
+            android:exported="false"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|screenSize|keyboardHidden|navigation"
+            android:theme="@style/Theme.VoxelCraft.Game">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="voxelcraft"/>
         </activity>
     </application>
 </manifest>

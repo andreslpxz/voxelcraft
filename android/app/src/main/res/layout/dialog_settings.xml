@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A6000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg_dialog_card"
+        android:padding="28dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_title"
+            android:textAppearance="@style/TextAppearance.VC.Title"
+            android:textSize="26sp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Distancia de renderizado -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_render_distance"
+            android:textColor="@color/vc_text_dark"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-medium"
+            android:alpha="0.8" />
+
+        <TextView
+            android:id="@+id/tv_render_distance_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/vc_primary_dark"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-bold"
+            android:layout_marginBottom="4dp"
+            tools:ignore="HardcodedText"
+            tools:text="6 chunks"
+            xmlns:tools="http://schemas.android.com/tools" />
+
+        <SeekBar
+            android:id="@+id/seek_render_distance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:max="12"
+            android:progress="6"
+            android:progressTint="@color/vc_primary"
+            android:thumbTint="@color/vc_primary_dark" />
+
+        <!-- Sensibilidad -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_sensitivity"
+            android:textColor="@color/vc_text_dark"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-medium"
+            android:alpha="0.8" />
+
+        <TextView
+            android:id="@+id/tv_sensitivity_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/vc_primary_dark"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-bold"
+            android:layout_marginBottom="4dp"
+            tools:ignore="HardcodedText"
+            tools:text="50%"
+            xmlns:tools="http://schemas.android.com/tools" />
+
+        <SeekBar
+            android:id="@+id/seek_sensitivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:max="100"
+            android:progress="50"
+            android:progressTint="@color/vc_primary"
+            android:thumbTint="@color/vc_primary_dark" />
+
+        <Button
+            android:id="@+id/btn_settings_close"
+            style="@style/Widget.VC.Button.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/common_close" />
+
+    </LinearLayout>
+</FrameLayout>
