@@ -14,7 +14,9 @@
 			"target_link_options",
 			"target_link_libraries",
 			"target_compile_options",
-			"include_directories"
+			"target_compile_definitions",
+			"include_directories",
+			"target_include_directories"
 		],
 		"files" : 
 		[
@@ -40,7 +42,7 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 123,
+				"line" : 138,
 				"parent" : 0
 			},
 			{
@@ -52,7 +54,19 @@
 			{
 				"command" : 4,
 				"file" : 0,
+				"line" : 131,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
 				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 127,
 				"parent" : 0
 			}
 		]
@@ -92,22 +106,30 @@
 			"defines" : 
 			[
 				{
+					"backtrace" : 5,
+					"define" : "VOXELCRAFT_EMBEDDED_SHADERS=1"
+				},
+				{
 					"define" : "voxelcraft_EXPORTS"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"path" : "/teamspace/studios/this_studio/voxelcraft/src"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"path" : "/teamspace/studios/this_studio/voxelcraft/src/third_party"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"path" : "/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/teamspace/studios/this_studio/voxelcraft/src/shaders"
 				}
 			],
 			"language" : "CXX",

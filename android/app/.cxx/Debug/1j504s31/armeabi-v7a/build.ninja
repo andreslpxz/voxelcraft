@@ -85,130 +85,130 @@ build libnative_app_glue.a: C_STATIC_LIBRARY_LINKER__native_app_glue_Debug CMake
 build cmake_object_order_depends_target_voxelcraft: phony || cmake_object_order_depends_target_native_app_glue
 
 build CMakeFiles/voxelcraft.dir/src/main.cpp.o: CXX_COMPILER__voxelcraft_Debug /teamspace/studios/this_studio/voxelcraft/src/main.cpp || cmake_object_order_depends_target_voxelcraft
-  DEFINES = -Dvoxelcraft_EXPORTS
+  DEFINES = -DVOXELCRAFT_EMBEDDED_SHADERS=1 -Dvoxelcraft_EXPORTS
   DEP_FILE = CMakeFiles/voxelcraft.dir/src/main.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -fexceptions -frtti -DVK_USE_PLATFORM_ANDROID_KHR -fno-limit-debug-info  -fPIC -Wall -Wextra -Wno-unused-parameter -O2 -fvisibility=hidden -std=c++17
-  INCLUDES = -I/teamspace/studios/this_studio/voxelcraft/src -I/teamspace/studios/this_studio/voxelcraft/src/third_party -I/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue
+  INCLUDES = -I/teamspace/studios/this_studio/voxelcraft/src -I/teamspace/studios/this_studio/voxelcraft/src/third_party -I/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue -I/teamspace/studios/this_studio/voxelcraft/src/shaders
   OBJECT_DIR = CMakeFiles/voxelcraft.dir
   OBJECT_FILE_DIR = CMakeFiles/voxelcraft.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/voxelcraft.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/1j504s31/obj/armeabi-v7a/libvoxelcraft.pdb
 
 build CMakeFiles/voxelcraft.dir/src/engine/Renderer.cpp.o: CXX_COMPILER__voxelcraft_Debug /teamspace/studios/this_studio/voxelcraft/src/engine/Renderer.cpp || cmake_object_order_depends_target_voxelcraft
-  DEFINES = -Dvoxelcraft_EXPORTS
+  DEFINES = -DVOXELCRAFT_EMBEDDED_SHADERS=1 -Dvoxelcraft_EXPORTS
   DEP_FILE = CMakeFiles/voxelcraft.dir/src/engine/Renderer.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -fexceptions -frtti -DVK_USE_PLATFORM_ANDROID_KHR -fno-limit-debug-info  -fPIC -Wall -Wextra -Wno-unused-parameter -O2 -fvisibility=hidden -std=c++17
-  INCLUDES = -I/teamspace/studios/this_studio/voxelcraft/src -I/teamspace/studios/this_studio/voxelcraft/src/third_party -I/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue
+  INCLUDES = -I/teamspace/studios/this_studio/voxelcraft/src -I/teamspace/studios/this_studio/voxelcraft/src/third_party -I/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue -I/teamspace/studios/this_studio/voxelcraft/src/shaders
   OBJECT_DIR = CMakeFiles/voxelcraft.dir
   OBJECT_FILE_DIR = CMakeFiles/voxelcraft.dir/src/engine
   TARGET_COMPILE_PDB = CMakeFiles/voxelcraft.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/1j504s31/obj/armeabi-v7a/libvoxelcraft.pdb
 
 build CMakeFiles/voxelcraft.dir/src/engine/Shader.cpp.o: CXX_COMPILER__voxelcraft_Debug /teamspace/studios/this_studio/voxelcraft/src/engine/Shader.cpp || cmake_object_order_depends_target_voxelcraft
-  DEFINES = -Dvoxelcraft_EXPORTS
+  DEFINES = -DVOXELCRAFT_EMBEDDED_SHADERS=1 -Dvoxelcraft_EXPORTS
   DEP_FILE = CMakeFiles/voxelcraft.dir/src/engine/Shader.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -fexceptions -frtti -DVK_USE_PLATFORM_ANDROID_KHR -fno-limit-debug-info  -fPIC -Wall -Wextra -Wno-unused-parameter -O2 -fvisibility=hidden -std=c++17
-  INCLUDES = -I/teamspace/studios/this_studio/voxelcraft/src -I/teamspace/studios/this_studio/voxelcraft/src/third_party -I/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue
+  INCLUDES = -I/teamspace/studios/this_studio/voxelcraft/src -I/teamspace/studios/this_studio/voxelcraft/src/third_party -I/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue -I/teamspace/studios/this_studio/voxelcraft/src/shaders
   OBJECT_DIR = CMakeFiles/voxelcraft.dir
   OBJECT_FILE_DIR = CMakeFiles/voxelcraft.dir/src/engine
   TARGET_COMPILE_PDB = CMakeFiles/voxelcraft.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/1j504s31/obj/armeabi-v7a/libvoxelcraft.pdb
 
 build CMakeFiles/voxelcraft.dir/src/engine/VulkanContext.cpp.o: CXX_COMPILER__voxelcraft_Debug /teamspace/studios/this_studio/voxelcraft/src/engine/VulkanContext.cpp || cmake_object_order_depends_target_voxelcraft
-  DEFINES = -Dvoxelcraft_EXPORTS
+  DEFINES = -DVOXELCRAFT_EMBEDDED_SHADERS=1 -Dvoxelcraft_EXPORTS
   DEP_FILE = CMakeFiles/voxelcraft.dir/src/engine/VulkanContext.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -fexceptions -frtti -DVK_USE_PLATFORM_ANDROID_KHR -fno-limit-debug-info  -fPIC -Wall -Wextra -Wno-unused-parameter -O2 -fvisibility=hidden -std=c++17
-  INCLUDES = -I/teamspace/studios/this_studio/voxelcraft/src -I/teamspace/studios/this_studio/voxelcraft/src/third_party -I/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue
+  INCLUDES = -I/teamspace/studios/this_studio/voxelcraft/src -I/teamspace/studios/this_studio/voxelcraft/src/third_party -I/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue -I/teamspace/studios/this_studio/voxelcraft/src/shaders
   OBJECT_DIR = CMakeFiles/voxelcraft.dir
   OBJECT_FILE_DIR = CMakeFiles/voxelcraft.dir/src/engine
   TARGET_COMPILE_PDB = CMakeFiles/voxelcraft.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/1j504s31/obj/armeabi-v7a/libvoxelcraft.pdb
 
 build CMakeFiles/voxelcraft.dir/src/engine/VulkanTexture.cpp.o: CXX_COMPILER__voxelcraft_Debug /teamspace/studios/this_studio/voxelcraft/src/engine/VulkanTexture.cpp || cmake_object_order_depends_target_voxelcraft
-  DEFINES = -Dvoxelcraft_EXPORTS
+  DEFINES = -DVOXELCRAFT_EMBEDDED_SHADERS=1 -Dvoxelcraft_EXPORTS
   DEP_FILE = CMakeFiles/voxelcraft.dir/src/engine/VulkanTexture.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -fexceptions -frtti -DVK_USE_PLATFORM_ANDROID_KHR -fno-limit-debug-info  -fPIC -Wall -Wextra -Wno-unused-parameter -O2 -fvisibility=hidden -std=c++17
-  INCLUDES = -I/teamspace/studios/this_studio/voxelcraft/src -I/teamspace/studios/this_studio/voxelcraft/src/third_party -I/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue
+  INCLUDES = -I/teamspace/studios/this_studio/voxelcraft/src -I/teamspace/studios/this_studio/voxelcraft/src/third_party -I/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue -I/teamspace/studios/this_studio/voxelcraft/src/shaders
   OBJECT_DIR = CMakeFiles/voxelcraft.dir
   OBJECT_FILE_DIR = CMakeFiles/voxelcraft.dir/src/engine
   TARGET_COMPILE_PDB = CMakeFiles/voxelcraft.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/1j504s31/obj/armeabi-v7a/libvoxelcraft.pdb
 
 build CMakeFiles/voxelcraft.dir/src/world/ChunkMesh.cpp.o: CXX_COMPILER__voxelcraft_Debug /teamspace/studios/this_studio/voxelcraft/src/world/ChunkMesh.cpp || cmake_object_order_depends_target_voxelcraft
-  DEFINES = -Dvoxelcraft_EXPORTS
+  DEFINES = -DVOXELCRAFT_EMBEDDED_SHADERS=1 -Dvoxelcraft_EXPORTS
   DEP_FILE = CMakeFiles/voxelcraft.dir/src/world/ChunkMesh.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -fexceptions -frtti -DVK_USE_PLATFORM_ANDROID_KHR -fno-limit-debug-info  -fPIC -Wall -Wextra -Wno-unused-parameter -O2 -fvisibility=hidden -std=c++17
-  INCLUDES = -I/teamspace/studios/this_studio/voxelcraft/src -I/teamspace/studios/this_studio/voxelcraft/src/third_party -I/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue
+  INCLUDES = -I/teamspace/studios/this_studio/voxelcraft/src -I/teamspace/studios/this_studio/voxelcraft/src/third_party -I/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue -I/teamspace/studios/this_studio/voxelcraft/src/shaders
   OBJECT_DIR = CMakeFiles/voxelcraft.dir
   OBJECT_FILE_DIR = CMakeFiles/voxelcraft.dir/src/world
   TARGET_COMPILE_PDB = CMakeFiles/voxelcraft.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/1j504s31/obj/armeabi-v7a/libvoxelcraft.pdb
 
 build CMakeFiles/voxelcraft.dir/src/world/TerrainGenerator.cpp.o: CXX_COMPILER__voxelcraft_Debug /teamspace/studios/this_studio/voxelcraft/src/world/TerrainGenerator.cpp || cmake_object_order_depends_target_voxelcraft
-  DEFINES = -Dvoxelcraft_EXPORTS
+  DEFINES = -DVOXELCRAFT_EMBEDDED_SHADERS=1 -Dvoxelcraft_EXPORTS
   DEP_FILE = CMakeFiles/voxelcraft.dir/src/world/TerrainGenerator.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -fexceptions -frtti -DVK_USE_PLATFORM_ANDROID_KHR -fno-limit-debug-info  -fPIC -Wall -Wextra -Wno-unused-parameter -O2 -fvisibility=hidden -std=c++17
-  INCLUDES = -I/teamspace/studios/this_studio/voxelcraft/src -I/teamspace/studios/this_studio/voxelcraft/src/third_party -I/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue
+  INCLUDES = -I/teamspace/studios/this_studio/voxelcraft/src -I/teamspace/studios/this_studio/voxelcraft/src/third_party -I/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue -I/teamspace/studios/this_studio/voxelcraft/src/shaders
   OBJECT_DIR = CMakeFiles/voxelcraft.dir
   OBJECT_FILE_DIR = CMakeFiles/voxelcraft.dir/src/world
   TARGET_COMPILE_PDB = CMakeFiles/voxelcraft.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/1j504s31/obj/armeabi-v7a/libvoxelcraft.pdb
 
 build CMakeFiles/voxelcraft.dir/src/world/World.cpp.o: CXX_COMPILER__voxelcraft_Debug /teamspace/studios/this_studio/voxelcraft/src/world/World.cpp || cmake_object_order_depends_target_voxelcraft
-  DEFINES = -Dvoxelcraft_EXPORTS
+  DEFINES = -DVOXELCRAFT_EMBEDDED_SHADERS=1 -Dvoxelcraft_EXPORTS
   DEP_FILE = CMakeFiles/voxelcraft.dir/src/world/World.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -fexceptions -frtti -DVK_USE_PLATFORM_ANDROID_KHR -fno-limit-debug-info  -fPIC -Wall -Wextra -Wno-unused-parameter -O2 -fvisibility=hidden -std=c++17
-  INCLUDES = -I/teamspace/studios/this_studio/voxelcraft/src -I/teamspace/studios/this_studio/voxelcraft/src/third_party -I/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue
+  INCLUDES = -I/teamspace/studios/this_studio/voxelcraft/src -I/teamspace/studios/this_studio/voxelcraft/src/third_party -I/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue -I/teamspace/studios/this_studio/voxelcraft/src/shaders
   OBJECT_DIR = CMakeFiles/voxelcraft.dir
   OBJECT_FILE_DIR = CMakeFiles/voxelcraft.dir/src/world
   TARGET_COMPILE_PDB = CMakeFiles/voxelcraft.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/1j504s31/obj/armeabi-v7a/libvoxelcraft.pdb
 
 build CMakeFiles/voxelcraft.dir/src/game/Game.cpp.o: CXX_COMPILER__voxelcraft_Debug /teamspace/studios/this_studio/voxelcraft/src/game/Game.cpp || cmake_object_order_depends_target_voxelcraft
-  DEFINES = -Dvoxelcraft_EXPORTS
+  DEFINES = -DVOXELCRAFT_EMBEDDED_SHADERS=1 -Dvoxelcraft_EXPORTS
   DEP_FILE = CMakeFiles/voxelcraft.dir/src/game/Game.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -fexceptions -frtti -DVK_USE_PLATFORM_ANDROID_KHR -fno-limit-debug-info  -fPIC -Wall -Wextra -Wno-unused-parameter -O2 -fvisibility=hidden -std=c++17
-  INCLUDES = -I/teamspace/studios/this_studio/voxelcraft/src -I/teamspace/studios/this_studio/voxelcraft/src/third_party -I/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue
+  INCLUDES = -I/teamspace/studios/this_studio/voxelcraft/src -I/teamspace/studios/this_studio/voxelcraft/src/third_party -I/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue -I/teamspace/studios/this_studio/voxelcraft/src/shaders
   OBJECT_DIR = CMakeFiles/voxelcraft.dir
   OBJECT_FILE_DIR = CMakeFiles/voxelcraft.dir/src/game
   TARGET_COMPILE_PDB = CMakeFiles/voxelcraft.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/1j504s31/obj/armeabi-v7a/libvoxelcraft.pdb
 
 build CMakeFiles/voxelcraft.dir/src/game/InputManager.cpp.o: CXX_COMPILER__voxelcraft_Debug /teamspace/studios/this_studio/voxelcraft/src/game/InputManager.cpp || cmake_object_order_depends_target_voxelcraft
-  DEFINES = -Dvoxelcraft_EXPORTS
+  DEFINES = -DVOXELCRAFT_EMBEDDED_SHADERS=1 -Dvoxelcraft_EXPORTS
   DEP_FILE = CMakeFiles/voxelcraft.dir/src/game/InputManager.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -fexceptions -frtti -DVK_USE_PLATFORM_ANDROID_KHR -fno-limit-debug-info  -fPIC -Wall -Wextra -Wno-unused-parameter -O2 -fvisibility=hidden -std=c++17
-  INCLUDES = -I/teamspace/studios/this_studio/voxelcraft/src -I/teamspace/studios/this_studio/voxelcraft/src/third_party -I/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue
+  INCLUDES = -I/teamspace/studios/this_studio/voxelcraft/src -I/teamspace/studios/this_studio/voxelcraft/src/third_party -I/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue -I/teamspace/studios/this_studio/voxelcraft/src/shaders
   OBJECT_DIR = CMakeFiles/voxelcraft.dir
   OBJECT_FILE_DIR = CMakeFiles/voxelcraft.dir/src/game
   TARGET_COMPILE_PDB = CMakeFiles/voxelcraft.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/1j504s31/obj/armeabi-v7a/libvoxelcraft.pdb
 
 build CMakeFiles/voxelcraft.dir/src/game/Player.cpp.o: CXX_COMPILER__voxelcraft_Debug /teamspace/studios/this_studio/voxelcraft/src/game/Player.cpp || cmake_object_order_depends_target_voxelcraft
-  DEFINES = -Dvoxelcraft_EXPORTS
+  DEFINES = -DVOXELCRAFT_EMBEDDED_SHADERS=1 -Dvoxelcraft_EXPORTS
   DEP_FILE = CMakeFiles/voxelcraft.dir/src/game/Player.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -fexceptions -frtti -DVK_USE_PLATFORM_ANDROID_KHR -fno-limit-debug-info  -fPIC -Wall -Wextra -Wno-unused-parameter -O2 -fvisibility=hidden -std=c++17
-  INCLUDES = -I/teamspace/studios/this_studio/voxelcraft/src -I/teamspace/studios/this_studio/voxelcraft/src/third_party -I/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue
+  INCLUDES = -I/teamspace/studios/this_studio/voxelcraft/src -I/teamspace/studios/this_studio/voxelcraft/src/third_party -I/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue -I/teamspace/studios/this_studio/voxelcraft/src/shaders
   OBJECT_DIR = CMakeFiles/voxelcraft.dir
   OBJECT_FILE_DIR = CMakeFiles/voxelcraft.dir/src/game
   TARGET_COMPILE_PDB = CMakeFiles/voxelcraft.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/1j504s31/obj/armeabi-v7a/libvoxelcraft.pdb
 
 build CMakeFiles/voxelcraft.dir/src/game/SaveManager.cpp.o: CXX_COMPILER__voxelcraft_Debug /teamspace/studios/this_studio/voxelcraft/src/game/SaveManager.cpp || cmake_object_order_depends_target_voxelcraft
-  DEFINES = -Dvoxelcraft_EXPORTS
+  DEFINES = -DVOXELCRAFT_EMBEDDED_SHADERS=1 -Dvoxelcraft_EXPORTS
   DEP_FILE = CMakeFiles/voxelcraft.dir/src/game/SaveManager.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -fexceptions -frtti -DVK_USE_PLATFORM_ANDROID_KHR -fno-limit-debug-info  -fPIC -Wall -Wextra -Wno-unused-parameter -O2 -fvisibility=hidden -std=c++17
-  INCLUDES = -I/teamspace/studios/this_studio/voxelcraft/src -I/teamspace/studios/this_studio/voxelcraft/src/third_party -I/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue
+  INCLUDES = -I/teamspace/studios/this_studio/voxelcraft/src -I/teamspace/studios/this_studio/voxelcraft/src/third_party -I/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue -I/teamspace/studios/this_studio/voxelcraft/src/shaders
   OBJECT_DIR = CMakeFiles/voxelcraft.dir
   OBJECT_FILE_DIR = CMakeFiles/voxelcraft.dir/src/game
   TARGET_COMPILE_PDB = CMakeFiles/voxelcraft.dir/
   TARGET_PDB = ../../../../build/intermediates/cxx/Debug/1j504s31/obj/armeabi-v7a/libvoxelcraft.pdb
 
 build CMakeFiles/voxelcraft.dir/src/noise/SimplexNoise.cpp.o: CXX_COMPILER__voxelcraft_Debug /teamspace/studios/this_studio/voxelcraft/src/noise/SimplexNoise.cpp || cmake_object_order_depends_target_voxelcraft
-  DEFINES = -Dvoxelcraft_EXPORTS
+  DEFINES = -DVOXELCRAFT_EMBEDDED_SHADERS=1 -Dvoxelcraft_EXPORTS
   DEP_FILE = CMakeFiles/voxelcraft.dir/src/noise/SimplexNoise.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -fexceptions -frtti -DVK_USE_PLATFORM_ANDROID_KHR -fno-limit-debug-info  -fPIC -Wall -Wextra -Wno-unused-parameter -O2 -fvisibility=hidden -std=c++17
-  INCLUDES = -I/teamspace/studios/this_studio/voxelcraft/src -I/teamspace/studios/this_studio/voxelcraft/src/third_party -I/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue
+  INCLUDES = -I/teamspace/studios/this_studio/voxelcraft/src -I/teamspace/studios/this_studio/voxelcraft/src/third_party -I/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue -I/teamspace/studios/this_studio/voxelcraft/src/shaders
   OBJECT_DIR = CMakeFiles/voxelcraft.dir
   OBJECT_FILE_DIR = CMakeFiles/voxelcraft.dir/src/noise
   TARGET_COMPILE_PDB = CMakeFiles/voxelcraft.dir/

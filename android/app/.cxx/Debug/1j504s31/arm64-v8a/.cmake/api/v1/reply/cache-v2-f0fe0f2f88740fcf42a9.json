@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "armeabi-v7a"
+			"value" : "arm64-v8a"
 		},
 		{
 			"name" : "ANDROID_NDK",
@@ -75,7 +75,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "armeabi-v7a"
+			"value" : "arm64-v8a"
 		},
 		{
 			"name" : "CMAKE_ANDROID_NDK",
@@ -163,7 +163,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/teamspace/studios/this_studio/voxelcraft/android/app/.cxx/Debug/1j504s31/armeabi-v7a"
+			"value" : "/teamspace/studios/this_studio/voxelcraft/android/app/.cxx/Debug/1j504s31/arm64-v8a"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -719,7 +719,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "/teamspace/studios/this_studio/voxelcraft/android/app/build/intermediates/cxx/Debug/1j504s31/obj/armeabi-v7a"
+			"value" : "/teamspace/studios/this_studio/voxelcraft/android/app/build/intermediates/cxx/Debug/1j504s31/obj/arm64-v8a"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -991,7 +991,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "/teamspace/studios/this_studio/voxelcraft/android/app/build/intermediates/cxx/Debug/1j504s31/obj/armeabi-v7a"
+			"value" : "/teamspace/studios/this_studio/voxelcraft/android/app/build/intermediates/cxx/Debug/1j504s31/obj/arm64-v8a"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1266,18 +1266,6 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "GLSLC",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "GLSLC-NOTFOUND"
-		},
-		{
 			"name" : "VoxelCraft_BINARY_DIR",
 			"properties" : 
 			[
@@ -1287,7 +1275,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/teamspace/studios/this_studio/voxelcraft/android/app/.cxx/Debug/1j504s31/armeabi-v7a"
+			"value" : "/teamspace/studios/this_studio/voxelcraft/android/app/.cxx/Debug/1j504s31/arm64-v8a"
 		},
 		{
 			"name" : "VoxelCraft_IS_TOP_LEVEL",
@@ -1323,7 +1311,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/28/libandroid.so"
+			"value" : "/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/28/libandroid.so"
 		},
 		{
 			"name" : "log-lib",
@@ -1335,7 +1323,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/28/liblog.so"
+			"value" : "/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/28/liblog.so"
 		},
 		{
 			"name" : "nativewindow-lib",
@@ -1347,7 +1335,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/28/libnativewindow.so"
+			"value" : "/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/28/libnativewindow.so"
 		},
 		{
 			"name" : "vulkan-lib",
@@ -1359,7 +1347,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/28/libvulkan.so"
+			"value" : "/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/28/libvulkan.so"
 		}
 	],
 	"kind" : "cache",

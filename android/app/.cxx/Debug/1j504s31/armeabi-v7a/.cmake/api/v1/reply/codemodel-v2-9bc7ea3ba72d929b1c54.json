@@ -41,14 +41,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "native_app_glue::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-native_app_glue-Debug-b07485db7fe35f7dafaf.json",
+					"jsonFile" : "target-native_app_glue-Debug-37e6c6ecf1a64992f33f.json",
 					"name" : "native_app_glue",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "voxelcraft::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-voxelcraft-Debug-ecc289eb8df35b98dd7f.json",
+					"jsonFile" : "target-voxelcraft-Debug-5b5b78b5efa2783d849f.json",
 					"name" : "voxelcraft",
 					"projectIndex" : 0
 				}
@@ -58,7 +58,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/teamspace/studios/this_studio/voxelcraft/android/app/.cxx/Debug/1j504s31/arm64-v8a",
+		"build" : "/teamspace/studios/this_studio/voxelcraft/android/app/.cxx/Debug/1j504s31/armeabi-v7a",
 		"source" : "/teamspace/studios/this_studio/voxelcraft"
 	},
 	"version" : 
