@@ -1,0 +1,33 @@
+ninja: Entering directory `/teamspace/studios/this_studio/voxelcraft/android/app/.cxx/Debug/1j504s31/arm64-v8a'
+[0/2] Re-checking globbed directories...
+[1/16] Building C object CMakeFiles/native_app_glue.dir/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue/android_native_app_glue.c.o
+[2/16] Linking C static library libnative_app_glue.a
+[3/16] Building CXX object CMakeFiles/voxelcraft.dir/src/engine/Shader.cpp.o
+[4/16] Building CXX object CMakeFiles/voxelcraft.dir/src/engine/VulkanTexture.cpp.o
+[5/16] Building CXX object CMakeFiles/voxelcraft.dir/src/main.cpp.o
+/teamspace/studios/this_studio/voxelcraft/src/main.cpp:103:5: warning: 'app_dummy' is deprecated: Calls to app_dummy are no longer necessary. See https://github.com/android-ndk/ndk/issues/381. [-Wdeprecated-declarations]
+    app_dummy();
+    ^
+/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue/android_native_app_glue.h:338:5: note: 'app_dummy' has been explicitly marked deprecated here
+    deprecated("Calls to app_dummy are no longer necessary. See "
+    ^
+1 warning generated.
+[6/16] Building CXX object CMakeFiles/voxelcraft.dir/src/engine/Renderer.cpp.o
+[7/16] Building CXX object CMakeFiles/voxelcraft.dir/src/world/TerrainGenerator.cpp.o
+[8/16] Building CXX object CMakeFiles/voxelcraft.dir/src/world/World.cpp.o
+/teamspace/studios/this_studio/voxelcraft/src/world/World.cpp:16:16: warning: unused variable 'kv' [-Wunused-variable]
+    for (auto& kv : chunks_) {
+               ^
+1 warning generated.
+[9/16] Building CXX object CMakeFiles/voxelcraft.dir/src/world/ChunkMesh.cpp.o
+[10/16] Building CXX object CMakeFiles/voxelcraft.dir/src/noise/SimplexNoise.cpp.o
+[11/16] Building CXX object CMakeFiles/voxelcraft.dir/src/game/InputManager.cpp.o
+[12/16] Building CXX object CMakeFiles/voxelcraft.dir/src/game/Player.cpp.o
+[13/16] Building CXX object CMakeFiles/voxelcraft.dir/src/game/SaveManager.cpp.o
+[14/16] Building CXX object CMakeFiles/voxelcraft.dir/src/engine/VulkanContext.cpp.o
+/teamspace/studios/this_studio/voxelcraft/src/engine/VulkanContext.cpp:226:19: warning: unused function 'pickExtent' [-Wunused-function]
+static VkExtent2D pickExtent(const VkSurfaceCapabilitiesKHR& caps, ANativeWindow* window) {
+                  ^
+1 warning generated.
+[15/16] Building CXX object CMakeFiles/voxelcraft.dir/src/game/Game.cpp.o
+[16/16] Linking CXX shared library ../../../../build/intermediates/cxx/Debug/1j504s31/obj/arm64-v8a/libvoxelcraft.so

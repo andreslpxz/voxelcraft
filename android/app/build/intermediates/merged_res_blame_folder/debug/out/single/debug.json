@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.voxelcraft.app-merged_res-20:/animator_button_raise.xml.flat",
+        "source": "com.voxelcraft.app-main-22:/animator/button_raise.xml"
+    },
+    {
+        "merged": "com.voxelcraft.app-merged_res-20:/drawable_bg_button_primary.xml.flat",
+        "source": "com.voxelcraft.app-main-22:/drawable/bg_button_primary.xml"
+    },
+    {
+        "merged": "com.voxelcraft.app-merged_res-20:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.voxelcraft.app-main-22:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.voxelcraft.app-merged_res-20:/layout_activity_menu.xml.flat",
+        "source": "com.voxelcraft.app-main-22:/layout/activity_menu.xml"
+    },
+    {
+        "merged": "com.voxelcraft.app-merged_res-20:/drawable_bg_dialog_card.xml.flat",
+        "source": "com.voxelcraft.app-main-22:/drawable/bg_dialog_card.xml"
+    },
+    {
+        "merged": "com.voxelcraft.app-merged_res-20:/drawable_bg_button_secondary.xml.flat",
+        "source": "com.voxelcraft.app-main-22:/drawable/bg_button_secondary.xml"
+    },
+    {
+        "merged": "com.voxelcraft.app-merged_res-20:/layout_dialog_settings.xml.flat",
+        "source": "com.voxelcraft.app-main-22:/layout/dialog_settings.xml"
+    },
+    {
+        "merged": "com.voxelcraft.app-merged_res-20:/drawable_bg_menu_gradient.xml.flat",
+        "source": "com.voxelcraft.app-main-22:/drawable/bg_menu_gradient.xml"
+    },
+    {
+        "merged": "com.voxelcraft.app-merged_res-20:/layout_dialog_about.xml.flat",
+        "source": "com.voxelcraft.app-main-22:/layout/dialog_about.xml"
+    },
+    {
+        "merged": "com.voxelcraft.app-merged_res-20:/drawable_ic_block_grass.xml.flat",
+        "source": "com.voxelcraft.app-main-22:/drawable/ic_block_grass.xml"
+    }
+]

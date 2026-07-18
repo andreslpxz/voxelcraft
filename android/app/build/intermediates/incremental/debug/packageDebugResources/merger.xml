@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/teamspace/studios/this_studio/voxelcraft/android/app/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/teamspace/studios/this_studio/voxelcraft/android/app/src/main/res"><file path="/teamspace/studios/this_studio/voxelcraft/android/app/src/main/res/values/styles.xml" qualifiers=""><style name="Theme.VoxelCraft" parent="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/vc_sky_top</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style><style name="Theme.VoxelCraft.Menu" parent="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@drawable/bg_menu_gradient</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style><style name="Theme.VoxelCraft.Game" parent="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+    </style><style name="TextAppearance.VC.Display" parent="@android:style/TextAppearance">
+        <item name="android:textSize">64sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">@color/vc_text_primary</item>
+        <item name="android:shadowColor">#80000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">6</item>
+        <item name="android:shadowRadius">12</item>
+    </style><style name="TextAppearance.VC.Title" parent="@android:style/TextAppearance">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vc_text_primary</item>
+    </style><style name="TextAppearance.VC.Body" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/vc_text_secondary</item>
+    </style><style name="TextAppearance.VC.Button" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.08</item>
+        <item name="android:textColor">@color/vc_text_primary</item>
+        <item name="android:textAllCaps">true</item>
+    </style><style name="Widget.VC.Button.Primary" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/bg_button_primary</item>
+        <item name="android:textAppearance">@style/TextAppearance.VC.Button</item>
+        <item name="android:textColor">@color/vc_text_primary</item>
+        <item name="android:paddingTop">18dp</item>
+        <item name="android:paddingBottom">18dp</item>
+        <item name="android:paddingStart">40dp</item>
+        <item name="android:paddingEnd">40dp</item>
+        <item name="android:minHeight">64dp</item>
+        <item name="android:elevation">8dp</item>
+        <item name="android:stateListAnimator">@animator/button_raise</item>
+    </style><style name="Widget.VC.Button.Secondary" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/bg_button_secondary</item>
+        <item name="android:textAppearance">@style/TextAppearance.VC.Button</item>
+        <item name="android:textColor">@color/vc_text_primary</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="android:paddingStart">32dp</item>
+        <item name="android:paddingEnd">32dp</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:stateListAnimator">@animator/button_raise</item>
+    </style></file><file path="/teamspace/studios/this_studio/voxelcraft/android/app/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">VoxelCraft</string><string name="menu_play">JUGAR</string><string name="menu_settings">CONFIGURACIÓN</string><string name="menu_about">ACERCA DE</string><string name="menu_continue">CONTINUAR</string><string name="menu_new_world">NUEVO MUNDO</string><string name="menu_quit">SALIR</string><string name="menu_tagline">Un sandbox de bloques infinito</string><string name="menu_version">v1.0.0</string><string name="settings_title">Configuración</string><string name="settings_render_distance">Distancia de renderizado</string><string name="settings_render_distance_value">%d chunks</string><string name="settings_graphics">Calidad gráfica</string><string name="settings_sensitivity">Sensibilidad</string><string name="about_title">Acerca de VoxelCraft</string><string name="about_body">VoxelCraft es un sandbox de bloques open-source para Android, renderizado nativamente con Vulkan. Construye, explora y sobrevive en un mundo procedural infinito.</string><string name="about_author">Desarrollado por @andreslpxz</string><string name="about_engine">Motor: Vulkan 1.1 · C++17 · Kotlin</string><string name="common_close">CERRAR</string><string name="common_back">VOLVER</string></file><file path="/teamspace/studios/this_studio/voxelcraft/android/app/src/main/res/values/colors.xml" qualifiers=""><color name="vc_sky_top">#FF4A90E2</color><color name="vc_sky_mid">#FF6FB1F0</color><color name="vc_sky_bottom">#FFB5E0FF</color><color name="vc_grass_dark">#FF3E6B2F</color><color name="vc_grass">#FF5B9A48</color><color name="vc_grass_light">#FF7FC26B</color><color name="vc_dirt">#FF7B5A3A</color><color name="vc_stone">#FF8A8A8A</color><color name="vc_primary">#FF3DDC84</color><color name="vc_primary_dark">#FF1FAE6B</color><color name="vc_primary_light">#FF6FEFAE</color><color name="vc_accent">#FFFFB300</color><color name="vc_accent_dark">#FFE08A00</color><color name="vc_danger">#FFEF5350</color><color name="vc_bg_overlay">#CC0E1B14</color><color name="vc_card_bg">#F2FFFFFF</color><color name="vc_text_primary">#FFFFFFFF</color><color name="vc_text_secondary">#B3FFFFFF</color><color name="vc_text_dark">#FF1A1A1A</color><color name="vc_text_dim">#FF6B6B6B</color><color name="vc_button_shadow">#66000000</color><color name="vc_logo_top">#FF8B6FE0</color><color name="vc_logo_bottom">#FF4A90E2</color></file><file name="button_raise" path="/teamspace/studios/this_studio/voxelcraft/android/app/src/main/res/animator/button_raise.xml" qualifiers="" type="animator"/><file name="dialog_about" path="/teamspace/studios/this_studio/voxelcraft/android/app/src/main/res/layout/dialog_about.xml" qualifiers="" type="layout"/><file name="activity_menu" path="/teamspace/studios/this_studio/voxelcraft/android/app/src/main/res/layout/activity_menu.xml" qualifiers="" type="layout"/><file name="dialog_settings" path="/teamspace/studios/this_studio/voxelcraft/android/app/src/main/res/layout/dialog_settings.xml" qualifiers="" type="layout"/><file name="ic_launcher" path="/teamspace/studios/this_studio/voxelcraft/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="bg_button_primary" path="/teamspace/studios/this_studio/voxelcraft/android/app/src/main/res/drawable/bg_button_primary.xml" qualifiers="" type="drawable"/><file name="bg_button_secondary" path="/teamspace/studios/this_studio/voxelcraft/android/app/src/main/res/drawable/bg_button_secondary.xml" qualifiers="" type="drawable"/><file name="bg_menu_gradient" path="/teamspace/studios/this_studio/voxelcraft/android/app/src/main/res/drawable/bg_menu_gradient.xml" qualifiers="" type="drawable"/><file name="bg_dialog_card" path="/teamspace/studios/this_studio/voxelcraft/android/app/src/main/res/drawable/bg_dialog_card.xml" qualifiers="" type="drawable"/><file name="ic_block_grass" path="/teamspace/studios/this_studio/voxelcraft/android/app/src/main/res/drawable/ic_block_grass.xml" qualifiers="" type="drawable"/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/teamspace/studios/this_studio/voxelcraft/android/app/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/teamspace/studios/this_studio/voxelcraft/android/app/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/teamspace/studios/this_studio/voxelcraft/android/app/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/teamspace/studios/this_studio/voxelcraft/android/app/build/generated/res/resValues/debug"/></dataSet><mergedItems/></merger>

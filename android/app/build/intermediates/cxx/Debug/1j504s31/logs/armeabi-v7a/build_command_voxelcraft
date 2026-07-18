@@ -1,0 +1,4 @@
+/teamspace/studios/this_studio/Android/Sdk/cmake/3.22.1/bin/ninja \
+  -C \
+  /teamspace/studios/this_studio/voxelcraft/android/app/.cxx/Debug/1j504s31/armeabi-v7a \
+  voxelcraft

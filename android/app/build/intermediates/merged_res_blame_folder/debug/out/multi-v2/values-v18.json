@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.voxelcraft.app-mergeDebugResources-18:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/home/zeus/.gradle/caches/8.10/transforms/7faa0255b5cc618de97027c9d3678111/transformed/appcompat-1.6.1/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

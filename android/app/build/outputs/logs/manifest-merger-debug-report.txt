@@ -1,0 +1,263 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:2:1-61:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/zeus/.gradle/caches/8.10/transforms/3d543f0f893917f71127ad148015968f/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/zeus/.gradle/caches/8.10/transforms/7faa0255b5cc618de97027c9d3678111/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/zeus/.gradle/caches/8.10/transforms/eb37e68a922e7cfaa8a4fcfcf041f871/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] /home/zeus/.gradle/caches/8.10/transforms/730e0758be55c64aadd76ef0af68bc66/transformed/activity-1.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/zeus/.gradle/caches/8.10/transforms/d549018ecef72a5c1730cfc6233a5a16/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/zeus/.gradle/caches/8.10/transforms/df0452f29408198497990d86218c1e90/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/zeus/.gradle/caches/8.10/transforms/55f1ab8636271ef6cd5eb8706f3de8ab/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/zeus/.gradle/caches/8.10/transforms/9d56f9413286d61b4b724051c0d3e79c/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/zeus/.gradle/caches/8.10/transforms/548f8d169cc73f4450c3bb313f936625/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/zeus/.gradle/caches/8.10/transforms/d982a3815ce8ac3f7699900f294530c6/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/zeus/.gradle/caches/8.10/transforms/f837a305a244b5fc5939a0a7d44134e3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/zeus/.gradle/caches/8.10/transforms/1ed07958cac1cc344178539fc86c9d1a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/zeus/.gradle/caches/8.10/transforms/2663a5ec8736534b6cc00d768249d87e/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/zeus/.gradle/caches/8.10/transforms/6e3a6e7698848c8d9385391b1d3168f2/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.12.0] /home/zeus/.gradle/caches/8.10/transforms/3a86a87f62b68dc2d0ef1124d7872ce1/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.12.0] /home/zeus/.gradle/caches/8.10/transforms/d15e49790f68716a54359fada1f8d096/transformed/core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/zeus/.gradle/caches/8.10/transforms/066abbf087796958aaf9827230c49a6a/transformed/savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/zeus/.gradle/caches/8.10/transforms/c6cc46e54996dde1fe98b1dadbb94559/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/zeus/.gradle/caches/8.10/transforms/8ed3c5a9a24f0513414a8d149e95eecd/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/zeus/.gradle/caches/8.10/transforms/a62faa1ea508121684f688e0ec8aae9f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/zeus/.gradle/caches/8.10/transforms/c2607186228e2141b1c1a49e82d6a567/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/zeus/.gradle/caches/8.10/transforms/525cd366e43785be2253d7eeec2d4a64/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/zeus/.gradle/caches/8.10/transforms/42773073ff1fc1845f7227741d9ac12e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zeus/.gradle/caches/8.10/transforms/fde8914dbbf330156fb61ec23a07c0ab/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/zeus/.gradle/caches/8.10/transforms/15469cbc23886d1dbaa43cafe6417b08/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/zeus/.gradle/caches/8.10/transforms/60359dd55de06340c60de67252304da7/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/zeus/.gradle/caches/8.10/transforms/14e76417c9be3e8667fae114304c1eea/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/zeus/.gradle/caches/8.10/transforms/17366f652dd96318844edd98e5b9d388/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+	package
+		INJECTED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.touchscreen
+ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:4:5-88
+	android:required
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:4:63-86
+	android:name
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:4:19-62
+uses-feature#android.hardware.vulkan.version
+ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:5:5-120
+	android:version
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:5:90-118
+	android:required
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:5:66-89
+	android:name
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:5:19-65
+uses-feature#android.hardware.vulkan.level
+ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:6:5-118
+	android:version
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:6:88-116
+	android:required
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:6:64-87
+	android:name
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:6:19-63
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:8:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:9:22-78
+application
+ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:11:5-60:19
+INJECTED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:11:5-60:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/zeus/.gradle/caches/8.10/transforms/d982a3815ce8ac3f7699900f294530c6/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/zeus/.gradle/caches/8.10/transforms/d982a3815ce8ac3f7699900f294530c6/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] /home/zeus/.gradle/caches/8.10/transforms/3a86a87f62b68dc2d0ef1124d7872ce1/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /home/zeus/.gradle/caches/8.10/transforms/3a86a87f62b68dc2d0ef1124d7872ce1/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/zeus/.gradle/caches/8.10/transforms/a62faa1ea508121684f688e0ec8aae9f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/zeus/.gradle/caches/8.10/transforms/a62faa1ea508121684f688e0ec8aae9f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/zeus/.gradle/caches/8.10/transforms/42773073ff1fc1845f7227741d9ac12e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/zeus/.gradle/caches/8.10/transforms/42773073ff1fc1845f7227741d9ac12e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zeus/.gradle/caches/8.10/transforms/fde8914dbbf330156fb61ec23a07c0ab/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zeus/.gradle/caches/8.10/transforms/fde8914dbbf330156fb61ec23a07c0ab/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /home/zeus/.gradle/caches/8.10/transforms/3a86a87f62b68dc2d0ef1124d7872ce1/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:13:9-41
+	android:hardwareAccelerated
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:17:9-43
+	android:icon
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:16:9-48
+activity#com.voxelcraft.MenuActivity
+ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:22:9-32:20
+	android:screenOrientation
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:25:13-50
+	android:exported
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:24:13-36
+	android:configChanges
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:26:13-85
+	android:theme
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:27:13-57
+	android:name
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:23:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:28:13-31:29
+action#android.intent.action.MAIN
+ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:29:17-68
+	android:name
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:30:17-76
+	android:name
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:30:27-74
+activity#com.voxelcraft.GameActivity
+ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:38:9-47:20
+	android:screenOrientation
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:41:13-50
+	android:exported
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:40:13-37
+	android:configChanges
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:42:13-85
+	android:theme
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:43:13-57
+	android:name
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:39:13-41
+meta-data#android.app.lib_name
+ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:44:13-46:45
+	android:value
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:46:17-43
+	android:name
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:45:17-52
+activity#android.app.NativeActivity
+ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:50:9-59:20
+	android:screenOrientation
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:53:13-50
+	android:exported
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:52:13-37
+	android:configChanges
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:54:13-85
+	android:theme
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:55:13-57
+	android:name
+		ADDED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:51:13-54
+uses-sdk
+INJECTED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml
+INJECTED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/zeus/.gradle/caches/8.10/transforms/3d543f0f893917f71127ad148015968f/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/zeus/.gradle/caches/8.10/transforms/3d543f0f893917f71127ad148015968f/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/zeus/.gradle/caches/8.10/transforms/7faa0255b5cc618de97027c9d3678111/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/zeus/.gradle/caches/8.10/transforms/7faa0255b5cc618de97027c9d3678111/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /home/zeus/.gradle/caches/8.10/transforms/eb37e68a922e7cfaa8a4fcfcf041f871/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/zeus/.gradle/caches/8.10/transforms/eb37e68a922e7cfaa8a4fcfcf041f871/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] /home/zeus/.gradle/caches/8.10/transforms/730e0758be55c64aadd76ef0af68bc66/transformed/activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] /home/zeus/.gradle/caches/8.10/transforms/730e0758be55c64aadd76ef0af68bc66/transformed/activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/zeus/.gradle/caches/8.10/transforms/d549018ecef72a5c1730cfc6233a5a16/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/zeus/.gradle/caches/8.10/transforms/d549018ecef72a5c1730cfc6233a5a16/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/zeus/.gradle/caches/8.10/transforms/df0452f29408198497990d86218c1e90/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/zeus/.gradle/caches/8.10/transforms/df0452f29408198497990d86218c1e90/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/zeus/.gradle/caches/8.10/transforms/55f1ab8636271ef6cd5eb8706f3de8ab/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/zeus/.gradle/caches/8.10/transforms/55f1ab8636271ef6cd5eb8706f3de8ab/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/zeus/.gradle/caches/8.10/transforms/9d56f9413286d61b4b724051c0d3e79c/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/zeus/.gradle/caches/8.10/transforms/9d56f9413286d61b4b724051c0d3e79c/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/zeus/.gradle/caches/8.10/transforms/548f8d169cc73f4450c3bb313f936625/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/zeus/.gradle/caches/8.10/transforms/548f8d169cc73f4450c3bb313f936625/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/zeus/.gradle/caches/8.10/transforms/d982a3815ce8ac3f7699900f294530c6/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/zeus/.gradle/caches/8.10/transforms/d982a3815ce8ac3f7699900f294530c6/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/zeus/.gradle/caches/8.10/transforms/f837a305a244b5fc5939a0a7d44134e3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/zeus/.gradle/caches/8.10/transforms/f837a305a244b5fc5939a0a7d44134e3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/zeus/.gradle/caches/8.10/transforms/1ed07958cac1cc344178539fc86c9d1a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/zeus/.gradle/caches/8.10/transforms/1ed07958cac1cc344178539fc86c9d1a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/zeus/.gradle/caches/8.10/transforms/2663a5ec8736534b6cc00d768249d87e/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/zeus/.gradle/caches/8.10/transforms/2663a5ec8736534b6cc00d768249d87e/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/zeus/.gradle/caches/8.10/transforms/6e3a6e7698848c8d9385391b1d3168f2/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/zeus/.gradle/caches/8.10/transforms/6e3a6e7698848c8d9385391b1d3168f2/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /home/zeus/.gradle/caches/8.10/transforms/3a86a87f62b68dc2d0ef1124d7872ce1/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /home/zeus/.gradle/caches/8.10/transforms/3a86a87f62b68dc2d0ef1124d7872ce1/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /home/zeus/.gradle/caches/8.10/transforms/d15e49790f68716a54359fada1f8d096/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /home/zeus/.gradle/caches/8.10/transforms/d15e49790f68716a54359fada1f8d096/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/zeus/.gradle/caches/8.10/transforms/066abbf087796958aaf9827230c49a6a/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/zeus/.gradle/caches/8.10/transforms/066abbf087796958aaf9827230c49a6a/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/zeus/.gradle/caches/8.10/transforms/c6cc46e54996dde1fe98b1dadbb94559/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/zeus/.gradle/caches/8.10/transforms/c6cc46e54996dde1fe98b1dadbb94559/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/zeus/.gradle/caches/8.10/transforms/8ed3c5a9a24f0513414a8d149e95eecd/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/zeus/.gradle/caches/8.10/transforms/8ed3c5a9a24f0513414a8d149e95eecd/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/zeus/.gradle/caches/8.10/transforms/a62faa1ea508121684f688e0ec8aae9f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/zeus/.gradle/caches/8.10/transforms/a62faa1ea508121684f688e0ec8aae9f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/zeus/.gradle/caches/8.10/transforms/c2607186228e2141b1c1a49e82d6a567/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/zeus/.gradle/caches/8.10/transforms/c2607186228e2141b1c1a49e82d6a567/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/zeus/.gradle/caches/8.10/transforms/525cd366e43785be2253d7eeec2d4a64/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/zeus/.gradle/caches/8.10/transforms/525cd366e43785be2253d7eeec2d4a64/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/zeus/.gradle/caches/8.10/transforms/42773073ff1fc1845f7227741d9ac12e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/zeus/.gradle/caches/8.10/transforms/42773073ff1fc1845f7227741d9ac12e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zeus/.gradle/caches/8.10/transforms/fde8914dbbf330156fb61ec23a07c0ab/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zeus/.gradle/caches/8.10/transforms/fde8914dbbf330156fb61ec23a07c0ab/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/zeus/.gradle/caches/8.10/transforms/15469cbc23886d1dbaa43cafe6417b08/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/zeus/.gradle/caches/8.10/transforms/15469cbc23886d1dbaa43cafe6417b08/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/zeus/.gradle/caches/8.10/transforms/60359dd55de06340c60de67252304da7/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/zeus/.gradle/caches/8.10/transforms/60359dd55de06340c60de67252304da7/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/zeus/.gradle/caches/8.10/transforms/14e76417c9be3e8667fae114304c1eea/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/zeus/.gradle/caches/8.10/transforms/14e76417c9be3e8667fae114304c1eea/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/zeus/.gradle/caches/8.10/transforms/17366f652dd96318844edd98e5b9d388/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/zeus/.gradle/caches/8.10/transforms/17366f652dd96318844edd98e5b9d388/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		INJECTED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/zeus/.gradle/caches/8.10/transforms/d982a3815ce8ac3f7699900f294530c6/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/zeus/.gradle/caches/8.10/transforms/a62faa1ea508121684f688e0ec8aae9f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/zeus/.gradle/caches/8.10/transforms/a62faa1ea508121684f688e0ec8aae9f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zeus/.gradle/caches/8.10/transforms/fde8914dbbf330156fb61ec23a07c0ab/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zeus/.gradle/caches/8.10/transforms/fde8914dbbf330156fb61ec23a07c0ab/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/zeus/.gradle/caches/8.10/transforms/d982a3815ce8ac3f7699900f294530c6/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/zeus/.gradle/caches/8.10/transforms/d982a3815ce8ac3f7699900f294530c6/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/zeus/.gradle/caches/8.10/transforms/d982a3815ce8ac3f7699900f294530c6/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/zeus/.gradle/caches/8.10/transforms/d982a3815ce8ac3f7699900f294530c6/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/zeus/.gradle/caches/8.10/transforms/d982a3815ce8ac3f7699900f294530c6/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/zeus/.gradle/caches/8.10/transforms/d982a3815ce8ac3f7699900f294530c6/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/zeus/.gradle/caches/8.10/transforms/d982a3815ce8ac3f7699900f294530c6/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/zeus/.gradle/caches/8.10/transforms/3a86a87f62b68dc2d0ef1124d7872ce1/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/zeus/.gradle/caches/8.10/transforms/3a86a87f62b68dc2d0ef1124d7872ce1/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/zeus/.gradle/caches/8.10/transforms/3a86a87f62b68dc2d0ef1124d7872ce1/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#com.voxelcraft.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/zeus/.gradle/caches/8.10/transforms/3a86a87f62b68dc2d0ef1124d7872ce1/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/zeus/.gradle/caches/8.10/transforms/3a86a87f62b68dc2d0ef1124d7872ce1/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/zeus/.gradle/caches/8.10/transforms/3a86a87f62b68dc2d0ef1124d7872ce1/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/zeus/.gradle/caches/8.10/transforms/3a86a87f62b68dc2d0ef1124d7872ce1/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/zeus/.gradle/caches/8.10/transforms/3a86a87f62b68dc2d0ef1124d7872ce1/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#com.voxelcraft.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/zeus/.gradle/caches/8.10/transforms/3a86a87f62b68dc2d0ef1124d7872ce1/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/zeus/.gradle/caches/8.10/transforms/3a86a87f62b68dc2d0ef1124d7872ce1/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/zeus/.gradle/caches/8.10/transforms/a62faa1ea508121684f688e0ec8aae9f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/zeus/.gradle/caches/8.10/transforms/a62faa1ea508121684f688e0ec8aae9f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/zeus/.gradle/caches/8.10/transforms/a62faa1ea508121684f688e0ec8aae9f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78

@@ -1,0 +1,166 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.voxelcraft"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-feature
+11-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:4:5-88
+12        android:name="android.hardware.touchscreen"
+12-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:4:19-62
+13        android:required="true" />
+13-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:4:63-86
+14    <uses-feature
+14-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:5:5-120
+15        android:name="android.hardware.vulkan.version"
+15-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:5:19-65
+16        android:required="true"
+16-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:5:66-89
+17        android:version="0x00401000" />
+17-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:5:90-118
+18    <uses-feature
+18-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:6:5-118
+19        android:name="android.hardware.vulkan.level"
+19-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:6:19-63
+20        android:required="true"
+20-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:6:64-87
+21        android:version="0x00401000" />
+21-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:6:88-116
+22
+23    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+23-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:8:5-79
+23-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:8:22-77
+24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+24-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:9:5-80
+24-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:9:22-78
+25
+26    <permission
+26-->[androidx.core:core:1.12.0] /home/zeus/.gradle/caches/8.10/transforms/3a86a87f62b68dc2d0ef1124d7872ce1/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+27        android:name="com.voxelcraft.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+27-->[androidx.core:core:1.12.0] /home/zeus/.gradle/caches/8.10/transforms/3a86a87f62b68dc2d0ef1124d7872ce1/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+28        android:protectionLevel="signature" />
+28-->[androidx.core:core:1.12.0] /home/zeus/.gradle/caches/8.10/transforms/3a86a87f62b68dc2d0ef1124d7872ce1/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+29
+30    <uses-permission android:name="com.voxelcraft.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+30-->[androidx.core:core:1.12.0] /home/zeus/.gradle/caches/8.10/transforms/3a86a87f62b68dc2d0ef1124d7872ce1/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.12.0] /home/zeus/.gradle/caches/8.10/transforms/3a86a87f62b68dc2d0ef1124d7872ce1/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+31
+32    <application
+32-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:11:5-60:19
+33        android:allowBackup="true"
+33-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:12:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.12.0] /home/zeus/.gradle/caches/8.10/transforms/3a86a87f62b68dc2d0ef1124d7872ce1/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+35        android:debuggable="true"
+36        android:extractNativeLibs="false"
+37        android:hardwareAccelerated="true"
+37-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:17:9-43
+38        android:icon="@mipmap/ic_launcher"
+38-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:15:9-43
+39        android:label="@string/app_name"
+39-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:13:9-41
+40        android:supportsRtl="true"
+40-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:14:9-35
+41        android:theme="@style/Theme.VoxelCraft" >
+41-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:16:9-48
+42
+43        <!-- =================================================== -->
+44        <!-- Pantalla de menú principal — es el LAUNCHER. -->
+45        <!-- =================================================== -->
+46        <activity
+46-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:22:9-32:20
+47            android:name="com.voxelcraft.MenuActivity"
+47-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:23:13-41
+48            android:configChanges="orientation|screenSize|keyboardHidden|navigation"
+48-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:26:13-85
+49            android:exported="true"
+49-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:24:13-36
+50            android:screenOrientation="landscape"
+50-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:25:13-50
+51            android:theme="@style/Theme.VoxelCraft.Menu" >
+51-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:27:13-57
+52            <intent-filter>
+52-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:28:13-31:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:29:17-68
+53-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:29:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:30:17-76
+55-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:30:27-74
+56            </intent-filter>
+57        </activity>
+58
+59        <!-- =================================================== -->
+60        <!-- Actividad del juego (Vulkan NativeActivity). -->
+61        <!-- Lanzada por MenuActivity al pulsar JUGAR. -->
+62        <!-- =================================================== -->
+63        <activity
+63-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:38:9-47:20
+64            android:name="com.voxelcraft.GameActivity"
+64-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:39:13-41
+65            android:configChanges="orientation|screenSize|keyboardHidden|navigation"
+65-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:42:13-85
+66            android:exported="false"
+66-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:40:13-37
+67            android:screenOrientation="landscape"
+67-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:41:13-50
+68            android:theme="@style/Theme.VoxelCraft.Game" >
+68-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:43:13-57
+69            <meta-data
+69-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:44:13-46:45
+70                android:name="android.app.lib_name"
+70-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:45:17-52
+71                android:value="voxelcraft" />
+71-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:46:17-43
+72        </activity>
+73
+74        <!-- Actividad nativa legacy (compatibilidad hacia atrás) -->
+75        <activity
+75-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:50:9-59:20
+76            android:name="android.app.NativeActivity"
+76-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:51:13-54
+77            android:configChanges="orientation|screenSize|keyboardHidden|navigation"
+77-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:54:13-85
+78            android:exported="false"
+78-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:52:13-37
+79            android:screenOrientation="landscape"
+79-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:53:13-50
+80            android:theme="@style/Theme.VoxelCraft.Game" >
+80-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:55:13-57
+81            <meta-data
+81-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:44:13-46:45
+82                android:name="android.app.lib_name"
+82-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:45:17-52
+83                android:value="voxelcraft" />
+83-->/teamspace/studios/this_studio/voxelcraft/android/app/src/main/AndroidManifest.xml:46:17-43
+84        </activity>
+85
+86        <provider
+86-->[androidx.emoji2:emoji2:1.2.0] /home/zeus/.gradle/caches/8.10/transforms/d982a3815ce8ac3f7699900f294530c6/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+87            android:name="androidx.startup.InitializationProvider"
+87-->[androidx.emoji2:emoji2:1.2.0] /home/zeus/.gradle/caches/8.10/transforms/d982a3815ce8ac3f7699900f294530c6/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+88            android:authorities="com.voxelcraft.androidx-startup"
+88-->[androidx.emoji2:emoji2:1.2.0] /home/zeus/.gradle/caches/8.10/transforms/d982a3815ce8ac3f7699900f294530c6/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+89            android:exported="false" >
+89-->[androidx.emoji2:emoji2:1.2.0] /home/zeus/.gradle/caches/8.10/transforms/d982a3815ce8ac3f7699900f294530c6/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+90            <meta-data
+90-->[androidx.emoji2:emoji2:1.2.0] /home/zeus/.gradle/caches/8.10/transforms/d982a3815ce8ac3f7699900f294530c6/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+91                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+91-->[androidx.emoji2:emoji2:1.2.0] /home/zeus/.gradle/caches/8.10/transforms/d982a3815ce8ac3f7699900f294530c6/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+92                android:value="androidx.startup" />
+92-->[androidx.emoji2:emoji2:1.2.0] /home/zeus/.gradle/caches/8.10/transforms/d982a3815ce8ac3f7699900f294530c6/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+93            <meta-data
+93-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/zeus/.gradle/caches/8.10/transforms/a62faa1ea508121684f688e0ec8aae9f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+94                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+94-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/zeus/.gradle/caches/8.10/transforms/a62faa1ea508121684f688e0ec8aae9f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+95                android:value="androidx.startup" />
+95-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/zeus/.gradle/caches/8.10/transforms/a62faa1ea508121684f688e0ec8aae9f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+96        </provider>
+97    </application>
+98
+99</manifest>
