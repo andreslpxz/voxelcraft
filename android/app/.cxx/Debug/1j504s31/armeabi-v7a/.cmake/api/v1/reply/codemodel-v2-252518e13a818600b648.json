@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "VoxelCraft",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "native_app_glue::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-native_app_glue-Debug-37e6c6ecf1a64992f33f.json",
+					"name" : "native_app_glue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "voxelcraft::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-voxelcraft-Debug-a24a04d36c9ff1f9a0ac.json",
+					"name" : "voxelcraft",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/teamspace/studios/this_studio/voxelcraft/android/app/.cxx/Debug/1j504s31/armeabi-v7a",
+		"source" : "/teamspace/studios/this_studio/voxelcraft"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

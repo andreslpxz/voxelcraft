@@ -1,0 +1,18 @@
+# ninja log v5
+0	27	0	/teamspace/studios/this_studio/voxelcraft/android/app/.cxx/Debug/1j504s31/arm64-v8a/CMakeFiles/cmake.verify_globs	e95798e877dcbd55
+0	262	1784357613587099281	CMakeFiles/native_app_glue.dir/teamspace/studios/this_studio/Android/Sdk/ndk/25.1.8937393/sources/android/native_app_glue/android_native_app_glue.c.o	9e2dfc7fcf184200
+262	337	1784357613655099342	libnative_app_glue.a	fc308e86bd83a0f9
+11	1334	1784357614643100229	CMakeFiles/voxelcraft.dir/src/engine/Shader.cpp.o	1df3a1a73d346119
+337	1552	1784357614851100415	CMakeFiles/voxelcraft.dir/src/engine/VulkanTexture.cpp.o	7f94f8f3082dedda
+8	1774	1784357615079100619	CMakeFiles/voxelcraft.dir/src/main.cpp.o	7027c6677a4d1310
+1552	2519	1784357615843101303	CMakeFiles/voxelcraft.dir/src/world/TerrainGenerator.cpp.o	988c22519feb393f
+1334	2735	1784357616043101482	CMakeFiles/voxelcraft.dir/src/world/ChunkMesh.cpp.o	1f5b783e050efb7e
+24	3296	1784357616599101978	CMakeFiles/voxelcraft.dir/src/engine/Renderer.cpp.o	bc567b4d8ad78201
+42	3419	1784357616731102096	CMakeFiles/voxelcraft.dir/src/world/World.cpp.o	5722a50fbba7d89e
+2735	3528	1784357616851102203	CMakeFiles/voxelcraft.dir/src/game/InputManager.cpp.o	d4ef49af911dbcf3
+2519	3694	1784357617019102353	CMakeFiles/voxelcraft.dir/src/game/Player.cpp.o	b4af3e94cbf493a6
+3419	3700	1784357617023102357	CMakeFiles/voxelcraft.dir/src/noise/SimplexNoise.cpp.o	c05d20e94bb94c83
+1775	3787	1784357617083102410	CMakeFiles/voxelcraft.dir/src/game/Game.cpp.o	1fd02588fed6aca
+54	3840	1784357617151102471	CMakeFiles/voxelcraft.dir/src/engine/VulkanContext.cpp.o	b3309269faff1541
+3296	3944	1784357617267102574	CMakeFiles/voxelcraft.dir/src/game/SaveManager.cpp.o	50b25d7b514ef7d0
+3944	3991	1784357617307102610	../../../../build/intermediates/cxx/Debug/1j504s31/obj/arm64-v8a/libvoxelcraft.so	27975a9ac716f3aa

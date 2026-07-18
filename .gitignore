@@ -1,0 +1,18 @@
+# Build outputs
+/android/.gradle/
+/android/app/build/
+/android/build/
+/android/local.properties
+/build/
+/cmake-build-*/
+/.cxx/
+
+# IDE files
+/.idea/
+*.iml
+.vscode/
+*.swp
+.DS_Store
+
+# Generated
+/assets/textures/*.rgba

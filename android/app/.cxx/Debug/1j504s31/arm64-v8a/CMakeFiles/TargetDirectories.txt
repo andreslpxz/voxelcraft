@@ -1,0 +1,4 @@
+/teamspace/studios/this_studio/voxelcraft/android/app/.cxx/Debug/1j504s31/arm64-v8a/CMakeFiles/native_app_glue.dir
+/teamspace/studios/this_studio/voxelcraft/android/app/.cxx/Debug/1j504s31/arm64-v8a/CMakeFiles/voxelcraft.dir
+/teamspace/studios/this_studio/voxelcraft/android/app/.cxx/Debug/1j504s31/arm64-v8a/CMakeFiles/edit_cache.dir
+/teamspace/studios/this_studio/voxelcraft/android/app/.cxx/Debug/1j504s31/arm64-v8a/CMakeFiles/rebuild_cache.dir
